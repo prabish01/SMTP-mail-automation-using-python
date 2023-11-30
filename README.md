@@ -18,10 +18,12 @@ Create a config.py file with your email credentials:
 ### config.py
 In config.py file add the following EMAIL, PASSWORD, RECEIVER_ID and SIGNATURE
 
+````
 EMAIL = "your_email@example.com"
 PASSWORD = "your_password"
 RECEIVER_ID = "receiverid@gmail.com"
-SIGNATURE = "signature either in plain text or if you use html then replace "" with f"""\  """  " 
+SIGNATURE = "signature either in plain text or if you use html then replace "" with f"""\  """  "
+`````
 
 Run the your_mail_script.py file to send automated emails.
 
