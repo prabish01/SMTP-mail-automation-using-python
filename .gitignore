@@ -1,5 +1,12 @@
 # Personal Creds
 config.py
+list.csv
+
+
+# Environment directories
+venv/
+env/
+/.venv/
 
 
 
